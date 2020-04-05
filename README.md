@@ -1,2 +1,1 @@
-# Covid-19-Gumi
- 
+# Covid-19-WORLD
