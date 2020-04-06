@@ -11,17 +11,17 @@
     ></script>
   </head>
   <body>
-    <div class="top-bar">
-      <span class="top-bar__column-icon">
+    <div class="header">
+      <span class="header__column-icon">
         <i class="fas fa-viruses"></i>
       </span>
-      <span class="top-bar__column">Coronavirus Disease (COCID-19)</span>
-      <span class="top-bar__column-icon">
+      <span class="header__column">Coronavirus Disease (COCID-19)</span>
+      <span class="header__column-icon">
         <i class="fas fa-bars"></i>
       </span>
     </div>
 
-    <div <div id="map"></div>
+    <div id="map"></div>
     <script>
       function initMap() {
         var uluru = { lat: 36.091517, lng: 128.432212 };
@@ -38,5 +38,20 @@
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVciXnyK2JYVQ2yNOFUyR6h0RPrGnx5QA&callback=initMap"
       type="text/javascript"
     ></script>
+
+    <div class="side-bar__left">
+      <div class="side-bar__left-first">
+        <span class="side-bar__left-first__num">1,174,855</span>
+        <span class="side-bar__left-first__title">확진자 수</span>
+      </div>
+      <div class="side-bar__left-second">
+        <span class="side-bar__left-second__num">64,471</span>
+        <span class="side-bar__left-second__title">사망자 수</span>
+      </div>
+      <div class="side-bar__left_third">
+        <span class="side-bar__left-third__num">208</span>
+        <span class="side-bar__left-third__title">확진국가</span>
+      </div>
+    </div>
   </body>
 </html>
