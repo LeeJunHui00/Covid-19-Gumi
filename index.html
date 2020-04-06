@@ -20,7 +20,7 @@
       function drawBasic() {
         var data = new google.visualization.DataTable();
         data.addColumn("number", "X");
-        data.addColumn("number", "Dogs");
+        data.addColumn("number", "확진자 수");
 
         data.addRows([
           [0, 0],
@@ -129,6 +129,7 @@
           ["Canada", 500],
           ["France", 600],
           ["RU", 700],
+          ["KR", 10284],
         ]);
 
         var options = {};
@@ -151,6 +152,7 @@
         <i class="fas fa-bars"></i>
       </span>
     </div>
+
     <!--  
     <div id="map"></div>
     <script>
