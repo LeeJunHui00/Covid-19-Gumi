@@ -7,6 +7,7 @@
   width: 100%;
 } */
 
-.main_imformation {
+.main__imformation {
   background-color: #ebebeb;
+  padding-top: 12px;
 }
