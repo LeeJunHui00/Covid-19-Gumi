@@ -1,12 +1,12 @@
 @import "reset.css";
+@import "header.css";
+@import "side-bar__left.css";
 
-#map {
+/* #map {
   height: 400px;
   width: 100%;
-}
+} */
 
-.header {
-  display: flex;
-  height: 44px;
-  width: 100%;
+.main_imformation {
+  background-color: #ebebeb;
 }

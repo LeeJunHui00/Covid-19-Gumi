@@ -144,13 +144,11 @@
   </head>
   <body>
     <div class="header">
-      <span class="header__column-icon">
+      <div class="header__column">
         <i class="fas fa-viruses"></i>
-      </span>
-      <span class="header__column">Coronavirus Disease (COCID-19)</span>
-      <span class="header__column-icon">
         <i class="fas fa-bars"></i>
-      </span>
+        <span class="header__column-title">Coronavirus Disease (COVID-19)</span>
+      </div>
     </div>
 
     <!--  
@@ -171,24 +169,25 @@
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVciXnyK2JYVQ2yNOFUyR6h0RPrGnx5QA&callback=initMap"
       type="text/javascript"
     ></script> -->
-
-    <div class="side-bar__left">
-      <div class="side-bar__left-first">
-        <span class="side-bar__left-first__num">1,174,855</span>
-        <span class="side-bar__left-first__title">확진자 수</span>
+    <main class="main_imformation">
+      <div class="side-bar__left">
+        <div class="side-bar__left-first">
+          <span class="side-bar__left-first__num">1,174,855</span>
+          <span class="side-bar__left-first__title">확진자 수</span>
+        </div>
+        <div class="side-bar__left-second">
+          <span class="side-bar__left-second__num">64,471</span>
+          <span class="side-bar__left-second__title">사망자 수</span>
+        </div>
+        <div class="side-bar__left_third">
+          <span class="side-bar__left-third__num">208</span>
+          <span class="side-bar__left-third__title">확진국가</span>
+        </div>
       </div>
-      <div class="side-bar__left-second">
-        <span class="side-bar__left-second__num">64,471</span>
-        <span class="side-bar__left-second__title">사망자 수</span>
-      </div>
-      <div class="side-bar__left_third">
-        <span class="side-bar__left-third__num">208</span>
-        <span class="side-bar__left-third__title">확진국가</span>
-      </div>
-    </div>
 
-    <div id="chart_div"></div>
+      <div id="chart_div"></div>
 
-    <div id="regions_div" style="width: 900px; height: 500px;"></div>
+      <div id="regions_div" style="width: 900px; height: 500px;"></div>
+    </main>
   </body>
 </html>
