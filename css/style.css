@@ -1,6 +1,8 @@
 @import "reset.css";
 @import "header.css";
 @import "side-bar__left.css";
+@import "chart.css";
+@import "map.css";
 
 /* #map {
   height: 400px;
@@ -10,4 +12,14 @@
 .main__imformation {
   background-color: #ebebeb;
   padding-top: 12px;
+  display: flex;
+  height: 100%;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
 }
