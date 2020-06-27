@@ -61,7 +61,7 @@ function drawRegionsMap() {
 
   var options = {
     region: "142",
-    colorAxis: { colors: ["#ffffff", "ff0000", "#4d0000"] },
+    colorAxis: { colors: ["FAC8C8", "B94646", "B90000"] },
   };
 
   var chart = new google.visualization.GeoChart(

@@ -6,6 +6,11 @@
     <title>Google-maps</title>
     <link rel="stylesheet" href="css/style.css" />
     <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+    <script
       src="https://kit.fontawesome.com/cf3815aebd.js"
       crossorigin="anonymous"
     ></script>
@@ -17,6 +22,12 @@
     <script type="text/javascript" src="js/maps.js"></script>
   </head>
   <body>
+    <div class="loader"></div>
+    <script>
+      $(window).load(function () {
+        $(".loader").delay("3000").fadeOut();
+      });
+    </script>
     <div class="header">
       <div class="header__column">
         <i class="fas fa-viruses"></i>

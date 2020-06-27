@@ -3,12 +3,11 @@
 @import "side-bar__left.css";
 @import "chart.css";
 @import "map.css";
-
+@import "preload.css";
 /* #map {
   height: 400px;
   width: 100%;
 } */
-
 .main__imformation {
   background-color: #ebebeb;
   padding-top: 12px;
