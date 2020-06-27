@@ -1,8 +1,13 @@
+.side-bar__left {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 .side-bar__left .side-bar__left-first {
   align-items: center;
   display: flex;
   flex-direction: column;
-  width: 369px;
+  width: 365px;
   height: 94px;
   border-radius: 15px;
   border: 2px solid white;
@@ -19,7 +24,7 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  width: 369px;
+  width: 365px;
   height: 94px;
   border-radius: 15px;
   border: 2px solid white;
@@ -36,7 +41,7 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  width: 369px;
+  width: 365px;
   height: 94px;
   border-radius: 15px;
   border: 2px solid white;
