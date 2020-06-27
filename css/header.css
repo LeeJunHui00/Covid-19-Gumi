@@ -1,0 +1,22 @@
+.header {
+  background-color: #00a9e6;
+  display: flex;
+  height: 44px;
+  width: 100%;
+}
+
+.header .header__column {
+  width: 100%;
+  display: flex;
+  margin-left: 14px;
+  margin-right: 14px;
+  margin-top: 7px;
+  font-size: 27px;
+  color: white;
+  justify-content: space-between;
+}
+
+.header__column-title {
+  position: absolute;
+  margin-left: 50px;
+}
