@@ -39,10 +39,10 @@ function drawBasic() {
     colors: ["red"],
 
     hAxis: {
-      title: "Time",
+      title: "1Week",
     },
     vAxis: {
-      title: "Popularity",
+      title: "Confirmed cases",
     },
   };
 

@@ -1,7 +1,5 @@
 google.charts.load("current", {
   packages: ["geochart"],
-  // Note: you will need to get a mapsApiKey for your project.
-  // See: https://developers.google.com/chart/interactive/docs/basic_load_libs#load-settings
   mapsApiKey: "AIzaSyD-9tSrke72PouQMnMX-a7eZSW0jkFMBWY",
 });
 google.charts.setOnLoadCallback(drawRegionsMap);
@@ -61,7 +59,7 @@ function drawRegionsMap() {
 
   var options = {
     region: "142",
-    colorAxis: { colors: ["#ffffff", "ff0000", "#4d0000"] },
+    colorAxis: { colors: ["FAC8C8", "B94646", "B90000"] },
   };
 
   var chart = new google.visualization.GeoChart(

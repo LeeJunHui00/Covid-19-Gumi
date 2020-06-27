@@ -3,8 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Google-maps</title>
+    <title>Covid 19 Map</title>
     <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
     <script
       src="https://kit.fontawesome.com/cf3815aebd.js"
       crossorigin="anonymous"
@@ -17,11 +22,17 @@
     <script type="text/javascript" src="js/maps.js"></script>
   </head>
   <body>
+    <div class="loader"></div>
+    <script>
+      $(window).load(function () {
+        $(".loader").delay("3000").fadeOut();
+      });
+    </script>
     <div class="header">
       <div class="header__column">
         <i class="fas fa-viruses"></i>
         <span class="header__column-title">Coronavirus Disease (COVID-19)</span>
-        <i class="fas fa-bars"></i>
+        <a href="http://ncov.mohw.go.kr/"><i class="fas fa-bars"></i></a>
       </div>
     </div>
 
@@ -39,11 +50,14 @@
           <div class="side-bar__left-third__num">214</div>
           <div class="side-bar__left-third__title">확진국가</div>
         </div>
-
         <div id="chart_div"></div>
       </div>
-
-      <div id="regions_div" style="width: 100%; height: 96.5%;"></div>
+      <div id="regions_div" style="width: 80%; height: 96.5%;"></div>
     </main>
+
+    <footer>
+      <div>20193198 응용소프트웨어 공학과 이준희</div>
+      <div>updated 2020.06.27</div>
+    </footer>
   </body>
 </html>

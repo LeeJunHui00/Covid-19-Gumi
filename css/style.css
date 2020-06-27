@@ -3,11 +3,24 @@
 @import "side-bar__left.css";
 @import "chart.css";
 @import "map.css";
+@import "preload.css";
 
-/* #map {
-  height: 400px;
-  width: 100%;
-} */
+a:link {
+  color: #ffffff;
+  text-decoration: none;
+}
+a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+a:active {
+  color: #ffffff;
+  text-decoration: none;
+}
+a:hover {
+  color: #000000;
+  text-decoration: none;
+}
 
 .main__imformation {
   background-color: #ebebeb;
